@@ -24,36 +24,66 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Libin N George</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	<div class="container row">
-		
-	</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Libin N George</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Education</a></li>
+          <li><a href="#section2">Technical Skills</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 	<div class="container-fluid">
-	<div class="row">
+	<div class="row" style="margin-top:5.5em">
 	  <div class="col-sm-8" class="mainheading">
 	  <div id="introanimate">
 	  <h1 class="mainheading" >Libin N George</h1> 
-	  	  <p class="subtitle" ><span class="ui-icon ui-icon-arrowthick-1-n"></span>Student Of Indian Institute of Technology,Palakkad</p>
+	  	  <p class="subtitle" >Student Of Indian Institute of Technology,Palakkad</p>
 	  </div>
 	  </div>
 	  <div class="col-sm-4"><img class="img-circle" src="img/profile.jpg"></div>
 	  
     </div>
 	</div>
-	<div class="container" >
-		<div class="educationcontent">
-		<h2>Education</h2><div class="detial">
+	<div class="container" id=section1>
+		<div class="educationcontent"  style="margin:10em">
+		<h2>Education</h2>
+		<div class="detial">
 			<h4 >B.Tech upto second semester</h4>
 			<div><p style="color:red">CGPA : 9.19<br>Institute : Indian Institute Of Technology,Palakkad<br>Expected Year of Completion : 2018<br><a href="docs/sem1.pdf"  target="_blank">Draft Academic Transcript for Semester 1</a><br><a href= "docs/sem2.pdf"  target="_blank">Draft Academic Transcript for Semester 2</a></p></div>
 			<h4 >X</h4>
 			<div><p style="color:red">CGPA : 10 <br>Institute : Jawahar Navodaya Vidyalaya, Kollam, Kerala<br>Year of Completion : 2012</p></div>
 			<h4 >XII</h4>
 			<div ><p style="color:red">percentage : 91.8 % <br>Institute : Jawahar Navodaya Vidyalaya, Kollam, Kerala<br>Year of Completion : 2014</p></div>
-			</div>
 		</div>
+		</div>
+		
 	</div>
-
+<div class="container-fluid" id="section2">
+<div >
+	<h2>Technical Skills</h2>
+</div>
+</div>
 </body>
 </html>
 

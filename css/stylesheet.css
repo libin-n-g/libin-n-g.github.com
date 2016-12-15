@@ -6,6 +6,7 @@ body {
 	background-position:center; 
 	background-size:cover;
 }
+
 div img {
 	height:20em;
 	width:20em;
@@ -13,7 +14,7 @@ div img {
 	margin:auto;
 	display:none;
 	border:2px solid white;
-	float:both;
+	float:right;
 	
 }
 .mainheading {
@@ -29,9 +30,7 @@ div img {
 	text-align: center;
 	position:relative;
 }
-div {
-	padding:10px;
-}
+
 #introanimate {
 	display:none;
 }
@@ -41,14 +40,11 @@ div .educationcontent {
 	border: 1px solid black;
 }
 
-div .educationcontent h2 {
+div div h2 {
 	  margin: 5%;
 	  font-weight: bold;
 	  color: #7b7f88;	
 	  text-align:center;
-}
-.detiel {
-
 }
 
 
@@ -65,9 +61,7 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-* {
-border:1px dashed red;
-}
+
 button.accordion.active, button.accordion:hover {
     background-color: #ddd;
 }
@@ -78,6 +72,9 @@ button.accordion:after {
     color: #777;
     float: right;
     margin-left: 5px;
+}
+* {
+border:1px dashed red;
 }
 
 button.accordion.active:after {
