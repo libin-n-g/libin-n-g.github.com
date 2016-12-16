@@ -18,12 +18,14 @@ div img {
 	
 }
 .mainheading {
-	height:1.9em;
+	
     color: white;
     text-align: center;
     font-size:90px;
+    position:relative;
 }
-	
+
+p {clear:both;}	
 .subtitle {
 	color:#FFA500;
 	font-size:2em;
@@ -33,20 +35,39 @@ div img {
 
 #introanimate {
 	display:none;
+	margin:auto;
 }
 div .educationcontent {
-	margin:30px;
+	margin-top:5%;
+	margin:auto;	
 	background: rgba(0,0,0,0.7);
 	border: 1px solid black;
 }
 
 div div h2 {
-	  margin: 5%;
+	  margin: auto;
 	  font-weight: bold;
 	  color: #7b7f88;	
 	  text-align:center;
 }
 
+#skills{
+
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+	
+}
+.Techskills {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+* {
+/*border:1px dashed red;*/
+padding:5px;
+}
 
 /*
 button.accordion {
@@ -61,7 +82,9 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-
+* {
+border:1px dashed red;
+}
 button.accordion.active, button.accordion:hover {
     background-color: #ddd;
 }
@@ -73,9 +96,7 @@ button.accordion:after {
     float: right;
     margin-left: 5px;
 }
-* {
-border:1px dashed red;
-}
+
 
 button.accordion.active:after {
     content: "\2796";

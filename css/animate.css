@@ -22,4 +22,6 @@ img:hover {
     transform: translate3d(4px, -2px, 0);
   }
 }
-
+.ui-accordion-content-active {
+height:auto;
+}
