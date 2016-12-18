@@ -1,12 +1,16 @@
 
-body { 
-	background-image:url('../img/background.png'); 
+.background { 
+	background-image:url('../img/background.png');
 	background-repeat:no-repeat; 
 	background-attachment:fixed; 
 	background-position:center; 
 	background-size:cover;
 }
 
+.ui-accordion-content-active {
+height:auto;
+width:auto;
+}
 div img {
 	height:20em;
 	width:20em;
@@ -37,22 +41,32 @@ p {clear:both;}
 	display:none;
 	margin:auto;
 }
-div .educationcontent {
+.educationcontent {
 	margin-top:5%;
+
+}
+#education {
+	padding-top:10em;
 	margin:auto;	
 	background: rgba(0,0,0,0.7);
 	border: 1px solid black;
 }
-
+div h1,
+div h2,
+div h3,
+div h5,
+div h6 {
+  font-weight:600;
+  line-height: 150%;
+}
 div div h2 {
 	  margin: auto;
-	  font-weight: bold;
 	  color: #7b7f88;	
 	  text-align:center;
 }
 
 #skills{
-
+	padding-top:10em;
 	margin:auto;
 	margin-top:7em;
 	background: rgba(0,0,0,0.7);
@@ -64,6 +78,26 @@ div div h2 {
 	margin-top:7em
 	float:left;
 }
+#Respon {
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+
+}
+.Resposability {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+
+.contactaddress {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+
 * {
 /*border:1px dashed red;*/
 padding:5px;
