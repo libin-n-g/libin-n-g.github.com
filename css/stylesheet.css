@@ -5,6 +5,8 @@
 	background-attachment:fixed; 
 	background-position:center; 
 	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
 }
 
 .ui-accordion-content-active {
@@ -91,7 +93,13 @@ div div h2 {
 	margin-top:7em
 	float:left;
 }
-
+#contact {
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+}
 .contactaddress {
 	color:white;
 	margin-top:7em
