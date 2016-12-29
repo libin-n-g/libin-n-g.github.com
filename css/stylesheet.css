@@ -125,7 +125,14 @@ div div h2 {
 /*border:1px dashed red;*/
 padding:5px;
 }
-
+#ProjectLink {
+	color:white;
+	font-weight:600;
+	line-height: 150%;
+}
+#ProjectLink:hover {
+color:#23527c;
+}
 /*
 button.accordion {
     background-color: #eee;
