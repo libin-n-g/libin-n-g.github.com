@@ -1,33 +1,31 @@
-.shakeanimate {
-  animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
+.Pictureanimate {
+  animation: radiusboom 1s cubic-bezier(.36,.07,.19,.97) ;
+  /*transform: translate3d(0, 0, 0);*/
   backface-visibility: hidden;
   perspective: 1000px;
 }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 2px, 0);
-    -ms-transform: translate3d(-1px, 2px, 0);
-    -webkit-transform: translate3d(-1px, 2px, 0);
-  }
+@keyframes radiusboom {
+  0%  {border-radius:0%}
+ 
   
-  20%, 80% {
-    transform: translate3d(2px,-2px, 0);
-    -ms-transform: translate3d(2px,-2px, 0);
-    -webkit-transform: translate3d(2px,-2px, 0);
-  }
+  
+  20%  {border-radius:10%}
+ 
+  
 
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 2px, 0);
-     -ms-transform: translate3d(-4px, 2px, 0);
-     -webkit-transform: translate3d(-4px, 2px, 0);
-  }
+  40%  {border-radius:20%}
 
-  40%, 60% {
-    transform: translate3d(4px, -2px, 0);
-    -ms-transform: translate3d(4px, -2px, 0);
-    -webkit-transform: translate3d(4px, -2px, 0);
-  }
+  
+
+  60% {border-radius:30%}
+ 
+  
+  80% {border-radius:40%}
+
+
+  
+  100%  {border-radius:50%}
+
 }
 
