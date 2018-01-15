@@ -89,6 +89,14 @@ div div h2 {
 	border: 1px solid black;
 	
 }
+#Work{
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+	
+}
 .Projects {
 	color:white;
 	margin-top:7em
